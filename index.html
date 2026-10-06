@@ -1,0 +1,119 @@
+<!doctype html>
+<html><head>
+<meta charset="UTF-8">
+<title>Portfolio</title>
+	<style>
+		@font-face {
+		font-family: Helvetica Neue, serif;
+		src: url("HelveticaNeueThin.otf");
+		} body {
+			background-image:url("gradients.png");
+			background-size: cover;
+			height: 1000px;
+		} h1 {
+			text-align: center;
+			margin: 25px auto;
+			font-size: 40px;
+			font-family: "helvetica-neue-lt-pro", sans-serif;
+			font-weight: 700;
+			color: white;
+			text-shadow: 2px 3px 6px rgba(32,130,203,0.5);
+		}	#square {
+			width: 768px;
+			height: 500px;
+			background: rgba(255, 255, 255, 0.75);
+			padding: 40px auto;
+			margin: 24px auto 75px;
+			border-radius: 48px;
+			border: 1px #BEDDF5;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: flex-start;
+		} .coco, .money, .starbucks{
+			height: 125px;
+			display: block;
+			margin: 0 auto;
+		} figure {
+			height: 125px;
+			margin: 50px 50px auto 25px;
+		} figcaption {
+			align-content: center;
+			text-align: center;
+			font-family: "helvetica-neue-lt-pro", sans-serif;
+			font-weight: 100;
+			font-style: normal;
+			font-size: 14px;
+			color: black;
+		} table {
+			margin: 0 auto;
+			border: rgba(0,0,0,1.00);
+			box-shadow: 1px 3px 6px rgba(142,170,230,1.00);
+			font-family: Helvetica Neue;
+			font-weight: 200;
+			text-align: center;
+		} tr:nth-child(3) {
+			background: rgba(208,221,243,.5);
+		} td {
+			padding: 10px 50px;
+		} tr:nth-child(even) {
+			background: rgba(11,35,80,.50);
+			color: white;
+		} th {
+			background: rgba(208,221,243,1);
+			color: rgba(16,32,95,1.00);
+			position: sticky;
+			top: 0px;
+			padding: 10px 50px;
+		}
+	</style>
+	</head>
+	<body>
+		<h1>Portfolio</h1>
+		<div id="square">
+
+			<figure>
+							<a href="Coco Love BillBoard.jpg">
+				<img class="coco" src="Coco Love.jpg" />
+								</a>
+				<figcaption>Coco Love Rebrand</figcaption>
+			</figure>	
+				<figure>
+				<a href="Australian Currency Image.png">					
+				<img class="money" src="Australian Currency.png" />
+				</a>		
+				<figcaption>Australian Currency Redesign</figcaption>
+			</figure>
+
+
+			<figure>
+							<a href="starbucks ad.jpg">
+				<img class="starbucks" src="starbucks ad thumb.jpg" />
+							</a>				
+				<figcaption>Starbucks Blueberry Campaign</figcaption>
+			</figure>
+		</div>
+			<table>
+				<tr>
+					<th>Works</th>
+					<th>Class</th>
+					<th>Creation Date</th>
+				</tr>
+				<tr>
+					<td>Coco Love Rebrand</td>
+					<td>GRC 250</td>
+					<td>December 2025</td>
+				</tr>
+				<tr>
+					<td>Australian Currency Redesign</td>
+					<td>GRC 320</td>
+					<td>April 2026</td>
+				</tr>
+				<tr>
+					<td>Starbucks Blueberry Campaign</td>
+					<td>GRC 320</td>
+					<td>January 2026</td>
+				</tr>
+			</table>
+	</body>
+</html>
